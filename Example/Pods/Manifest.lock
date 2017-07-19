@@ -1,0 +1,16 @@
+PODS:
+  - iOSApiConnection (0.1.0)
+
+DEPENDENCIES:
+  - iOSApiConnection (from `../`)
+
+EXTERNAL SOURCES:
+  iOSApiConnection:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOSApiConnection: a67b3442875c59d5789a5290941fc93b0bff5427
+
+PODFILE CHECKSUM: 6a5f3aa17dce63651a3cb6e78c7440ea54705e19
+
+COCOAPODS: 1.2.1

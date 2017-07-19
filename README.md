@@ -1,6 +1,6 @@
 # iOSApiConnection
 
-[![CI Status](http://img.shields.io/travis/shiva_sravan.naidu@students.tamuk.edu/iOSApiConnection.svg?style=flat)](https://travis-ci.org/shiva_sravan.naidu@students.tamuk.edu/iOSApiConnection)
+[![CI Status](http://img.shields.io/travis/prorohit13@gmail.com/iOSApiConnection.svg?style=flat)](https://travis-ci.org/shiva_sravan.naidu@students.tamuk.edu/iOSApiConnection)
 [![Version](https://img.shields.io/cocoapods/v/iOSApiConnection.svg?style=flat)](http://cocoapods.org/pods/iOSApiConnection)
 [![License](https://img.shields.io/cocoapods/l/iOSApiConnection.svg?style=flat)](http://cocoapods.org/pods/iOSApiConnection)
 [![Platform](https://img.shields.io/cocoapods/p/iOSApiConnection.svg?style=flat)](http://cocoapods.org/pods/iOSApiConnection)
@@ -22,7 +22,7 @@ pod "iOSApiConnection"
 
 ## Author
 
-shiva_sravan.naidu@students.tamuk.edu, shiva_sravan.naidu@students.tamuk.edu
+prorohit13@gmail.com, prorohit13@gmail.com
 
 ## License
 
