@@ -11,16 +11,16 @@ import AFNetworking
 import Reachability
 
 
-class iOSApiConnection: NSObject {
+public class iOSApiConnection: NSObject {
     
     // Singleton Object Creation
-    static let sharedInstance : iOSApiConnection = {
+    public static let sharedInstance : iOSApiConnection = {
         let instance = iOSApiConnection()
         return instance
     }()
     
     // Checking the internet Internet Connection
-    func isInternetConnected() -> Bool {
+    public func isInternetConnected() -> Bool {
         let reach : Reachability =  Reachability.forInternetConnection()
         let netStatus : NetworkStatus = reach.currentReachabilityStatus()
         
@@ -35,7 +35,7 @@ class iOSApiConnection: NSObject {
     }
     
     // Making String Request Api Call
-    func callStringWebServiceWithUrl(_ apiPath:String,
+   public  func callStringWebServiceWithUrl(_ apiPath:String,
                                      time : TimeInterval = 60,
                                      methodName:String ,
                                      headers:Dictionary<String,String>?,
@@ -90,7 +90,7 @@ class iOSApiConnection: NSObject {
     
     
     
-    func callJsonWebServiceWithUrl(_ apiPath:String,
+    public func callJsonWebServiceWithUrl(_ apiPath:String,
                                    time : TimeInterval,
                                    methodName:String ,
                                    headers:Dictionary<String,String>?,

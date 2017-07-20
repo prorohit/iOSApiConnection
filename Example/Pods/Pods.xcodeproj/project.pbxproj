@@ -10,7 +10,6 @@
 		0EFDB216E40B27D617E554DAA6993775 /* Pods-iOSApiConnection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22392DE0C88E236AF7F6E8C389D68223 /* Pods-iOSApiConnection_Tests-dummy.m */; };
 		3AA3713D2B047E13A4074198C894B3F6 /* Pods-iOSApiConnection_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D92D6BBFCE624AB4E1C08B1A8232290 /* Pods-iOSApiConnection_Example-dummy.m */; };
 		679E447A162D703A6723E90E1E0225B8 /* Pods-iOSApiConnection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B440597BBE58E04ECB1027671EDE6D8 /* Pods-iOSApiConnection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77099232F222BC29BD41B49D02D9214A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1EF5C4B3C0F3965D0A70A6047FDD5 /* ReplaceMe.swift */; };
 		87CBA85464F3129D93B657049FF67B1B /* iOSApiConnection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 813E3FB58B248E5381C298E972FE6367 /* iOSApiConnection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFBC1B870DB03932DC29E026AAE7D515 /* Pods-iOSApiConnection_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 323F6A80F169D558077D8FAEB6EB3478 /* Pods-iOSApiConnection_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C47C6BEE63AF041DE6C8074896F0F15C /* iOSApiConnection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0F5200C5FA61FDFA352F4420A09499 /* iOSApiConnection-dummy.m */; };
@@ -57,7 +56,6 @@
 		B4DAB076D4C8DDAD234DC3E5DD4ACB4C /* Pods-iOSApiConnection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSApiConnection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B5DA02966EFB2BDD8D2D637E3073D067 /* Pods-iOSApiConnection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSApiConnection_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B6A87942F9548F6859BC3CDB38D9D85F /* Pods-iOSApiConnection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSApiConnection_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BBB1EF5C4B3C0F3965D0A70A6047FDD5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		C783C34CFAEF5349516CA254AC1FAA47 /* Pods-iOSApiConnection_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSApiConnection_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D0CF2FFD9E80F88A1D3EF014CB6115DA /* Pods_iOSApiConnection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSApiConnection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B1C5171F1FAD720055F741 /* iOSApiConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSApiConnection.swift; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				D2B1C5171F1FAD720055F741 /* iOSApiConnection.swift */,
-				BBB1EF5C4B3C0F3965D0A70A6047FDD5 /* ReplaceMe.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -350,7 +347,6 @@
 			files = (
 				D2B1C5181F1FAD720055F741 /* iOSApiConnection.swift in Sources */,
 				C47C6BEE63AF041DE6C8074896F0F15C /* iOSApiConnection-dummy.m in Sources */,
-				77099232F222BC29BD41B49D02D9214A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
