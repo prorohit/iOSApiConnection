@@ -1,0 +1,6 @@
+framework module iOSApiConnection {
+  umbrella header "iOSApiConnection-umbrella.h"
+
+  export *
+  module * { export * }
+}
